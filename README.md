@@ -11,11 +11,15 @@ You don't know which game you should play or which movie will meet your expectat
 
 `git clone https://github.com/maszjan/suggifi.git`
 
-2. #### Install dependecies
+2. #### Go to the project directory
+
+   `cd suggifi`
+   
+4. #### Install dependecies
 
 `npm install`
 
 
-3. #### Run development server
+4. #### Run development server
 
 `npm run dev`
