@@ -1,13 +1,28 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import RootLayout from "./pages/Root";
+import ErrorPage from "./pages/Error";
+import HomePage from "./pages/Home";
+import SuggifiPage from "./pages/Suggifi";
+import AboutPage from "./pages/About";
+import CreditsPage from "./pages/Credits";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { index: true, element: <HomePage /> },
+      { path: "suggifi", element: <SuggifiPage /> },
+      { path: "about", element: <AboutPage /> },
+      { path: "credits", element: <CreditsPage /> },
+    ],
+  },
+]);
+
 function App() {
-  return (
-    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome!
-      </p>
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
+
 export default App;

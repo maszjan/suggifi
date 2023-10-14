@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navItem {
+    @apply text-yellowMotive m-3 sm:m-0 z-50 hover:border-b-4 hover:border-yellowMotive font-bold text-2xl;
+  }
+  .navBackground {
+    @apply sm:hidden md:flex md:flex-row items-center md:space-x-8 lg:space-x-20 justify-center bg-lightGrayMotive h-[100px] rounded-b-full z-50;
+  }
+  .readMoreButton {
+    @apply text-yellowMotive rounded-full bg-lightGrayMotive max-w-[300px] px-7 md:px-24 py-5 md:py-4 md:max-w-[400px] outline-none font-medium text-2xl text-center hover:bg-yellowMotive hover:text-darkMotive transition-all ;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-9xl md:text-[150px] lg:text-[250px] text-yellowMotive font-bold;
+  }
+
+  h2 {
+    @apply text-3xl md:text-[150px] text-yellowMotive font-medium;
+  }
+
+  h3 {
+    @apply text-4xl text-yellowMotive font-bold mt-12;
+  }
+
+  p {
+  @apply leading-4 tracking-wide text-yellowMotive text-left md:text-3xl max-w-3xl;
+  }
+}
+
+body {
+  @apply bg-darkMotive overflow-x-hidden;
+}
