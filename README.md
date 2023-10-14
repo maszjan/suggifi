@@ -8,20 +8,17 @@ You don't know which game you should play or which movie will meet your expectat
 
 ## How to clone app
 
-1. ### Use git to clone repo 
-
+1. #### Use git to clone repo 
 <code>
 git clone https://github.com/maszjan/suggifi.git
 </code>
 
-2. ### Install dependecies
-
+2. #### Install dependecies
 <code>
 npm install
 </code>
 
-3. ### Run development server
-
+3. #### Run development server
 <code>
 npm run dev
 </code>
