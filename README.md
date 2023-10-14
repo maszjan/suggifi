@@ -13,7 +13,7 @@ You don't know which game you should play or which movie will meet your expectat
 
 2. #### Go to the project directory
 
-   `cd suggifi`
+`cd suggifi`
    
 4. #### Install dependecies
 
