@@ -1,5 +1,5 @@
-import { ReactSVG } from 'react-svg';
-import { Link } from 'react-router-dom';
+import { ReactSVG } from "react-svg";
+import { Link } from "react-router-dom";
 import horrorMovie from "../../assets/illustartions/svg/horror-movie.svg";
 
 export default function Header() {
@@ -14,12 +14,12 @@ export default function Header() {
           movie or game recommendation for your evening, tailored to you unique
           preferences.
         </p>
-       <Link className="readMoreButton" to="/about">
-        Read more
-       </Link>
+        <Link className="readMoreButton" to="/about">
+          Read more
+        </Link>
       </div>
-      <div className='sm:scale-75 md:scale-100 lg:scale-100 xl:scale-100'>
-        <ReactSVG  src={horrorMovie} />
+      <div className="sm:scale-75 md:scale-100 lg:scale-100 xl:scale-100">
+        <ReactSVG src={horrorMovie} />
       </div>
     </div>
   );
