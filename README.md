@@ -22,4 +22,4 @@ You don't know which game you should play or which movie will meet your expectat
 
 4. #### Run development server
 
-`npm run dev`
+`npm start`
