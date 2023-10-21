@@ -7,6 +7,7 @@ import SuggifiPage from "./pages/Suggifi";
 import AboutPage from "./pages/About";
 import CreditsPage from "./pages/Credits";
 
+
 const router = createBrowserRouter([
   {
     path: "/",

@@ -31,7 +31,7 @@
   }
 
   p {
-    @apply md:leading-10 md:tracking-wide text-yellowMotive text-left md:text-3xl max-w-3xl;
+    @apply leading-8 md:leading-10 md:tracking-wide text-yellowMotive text-left px-2 md:px-5 md:text-3xl max-w-3xl;
   }
 }
 
